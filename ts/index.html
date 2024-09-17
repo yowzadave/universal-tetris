@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tetris (TS)</title>
+  </head>
+  <body>
+    <div id="app">
+      <div id="container">
+        <div id="playarea">
+          <canvas id="playarea-canvas">
+          </canvas>
+        </div>
+        <div id="info">
+          <div id="next">
+            <canvas id="next-canvas">
+            </canvas>
+          </div>
+          <div id="level">
+            <div class="label">
+              Level:
+            </div>
+            <div id="level-value">
+            </div>
+          </div>
+          <div id="lines">
+            <div class="label">
+              Lines:
+            </div>
+            <div id="lines-value">
+            </div>
+          </div>
+          <div id="score">
+            <div class="label">
+              Score:
+            </div>
+            <div id="score-value">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
